@@ -1,0 +1,2 @@
+REM For copying all of kinds folders into one folder
+for /r E:\2 %i in (.) do echo n|copy %i E:\2\a
